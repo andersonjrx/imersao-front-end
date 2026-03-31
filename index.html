@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/showflix-favicon.png" type="favicon/png">
+    <link rel="stylesheet" href="style.css">
+    <title>ShowFlix</title>
+</head>
+<body>
+    <button id="theme-toggle" aria-label="Alternar modo escuro/claro">Ativar modo escuro</button>
+    <main>
+        <h1>Quem está assistindo?</h1>
+        <section class="profiles">
+            <ul>
+                <li class="profile">
+                    <button type="button" onclick="selectProfile('Andershow', '/assets/perfil-1.png')">
+                        <img src="/assets/perfil-1.png" alt="Imagem de um homem caricato com uma moleta na mão">
+                        <p>Andershow</p>
+                    </button>
+                </li>
+                <li class="profile">
+                    <button type="button" onclick="selectProfile('Bruna', '/assets/perfil-2.png')">
+                        <img src="/assets/perfil-2.png" alt="Imagem de uma mulher triste e de cabelo bagunçado">
+                        <p>Bruna</p>
+                    </button>
+                </li>
+                <li class="profile">
+                    <button type="button" onclick="selectProfile('Júnior', '/assets/perfil-3.png')">  
+                        <img src="/assets/perfil-3.png" alt="Imagem de um esqueleto sorrindo e tocando uma santa">
+                        <p>Júnior</p>
+                    </button>
+                </li>
+                <li class="profile">
+                    <button type="button" onclick="selectProfile('Kids', '/assets/perfil-4.png')">
+                        <img src="/assets/perfil-4.png" alt="Imagem de um menino sorridente e com um gorro na cabeça">
+                        <p>Kids</p>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
